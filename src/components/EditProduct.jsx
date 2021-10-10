@@ -28,12 +28,12 @@ const EditProduct = () => {
                 editBook ? (
                     <div className="add-inputs">
                         <form>
-                            <TextField value={editBook.title} id="standard-basic" label="Название книги" name="title" onChange={handleInputs} />
-                            <TextField value={editBook.description} id="standard-basic" label="Описание  книги" name="description" onChange={handleInputs} />
-                            <TextField value={editBook.genre} id="standard-basic" label="Жанр книги" name="genre" onChange={handleInputs} />
-                            <TextField value={editBook.price} id="standard-basic" label="Price книги" name="price" onChange={handleInputs} />
-                            <TextField value={editBook.photo} id="standard-basic" label="Фото книги" name="photo" onChange={handleInputs} />
-                            <TextField value={editBook.author} id="standard-basic" label="Автор книги" name="author" onChange={handleInputs} />
+                            <TextField value={editBook.title} id="standard-basic" label="Название " name="title" onChange={handleInputs} />
+                            <TextField value={editBook.description} id="standard-basic" label="Описание " name="description" onChange={handleInputs} />
+                            <TextField value={editBook.genre} id="standard-basic" label="Категория" name="genre" onChange={handleInputs} />
+                            <TextField value={editBook.price} id="standard-basic" label="Цена" name="price" onChange={handleInputs} />
+                            <TextField value={editBook.photo} id="standard-basic" label="Фото " name="photo" onChange={handleInputs} />
+                            
                             <Button
                                 onClick={(e) => {
                                     e.preventDefault()
