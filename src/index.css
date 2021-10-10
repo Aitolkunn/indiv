@@ -1,0 +1,370 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cabin:wght@500&family=Dosis&display=swap'); */
+* {
+  /* font-family: 'Cabin', sans-serif; */
+  /* font-family: 'Dosis', sans-serif; */
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: black;
+}
+
+
+
+/* admin page add component start */
+
+.add-inputs {
+  display: flex;
+  justify-content: center;
+  background-color: white;
+}
+
+.add-inputs form {
+  display: flex;
+  width: 320px;
+  flex-direction: column;
+  background-color: white;
+
+}
+
+.add-inputs form input {
+  width: 100%;
+}
+
+/* admin page add component end */
+
+/* main page start */
+
+.main {
+  margin-top: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-sidebar {
+  width: 30%;
+  height: 40%;
+  color: black;
+  background-color: white;
+  /* display: flex; */
+  /* background-image: url("https://horoshop.ua/content/uploads/images/novaja-glavnaja.png"); */
+}
+
+/* .categ {
+  display: flex;
+} */
+
+.favoriteIcon {
+  margin-top: 0px;
+}
+
+.content {
+  width: 80%;
+}
+
+.content-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+/* main page end */
+
+/* navbar start */
+
+.first-h2 {
+  margin-top: 100px;
+}
+
+.AppBar {
+  background-color: rgb(0, 0, 0)!important;
+}
+
+.pagination {
+  text-decoration: none;
+  size: "small"
+}
+
+.mainPage {
+  /* background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/job545-wit-31.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=631bc7a3af2f83ae1c4566602e068980"); */
+  opacity: 0.9;
+  /* background-image: url("https://cutewallpaper.org/21/books-wallpaper-hd/Books-and-books-HD-wallpaper-Latest-Wallpapers-HD.jpg"); */
+  background-color: white;
+  margin-top: 70px;
+}
+
+.FirstPage {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin-left: 680px;
+  margin-top: 190px;
+}
+
+.header {
+  display: flex;
+  justify-content:space-around;
+  list-style: none;
+  cursor: pointer;
+}
+
+.firstImg {
+  margin-left: 50;
+}
+
+.firstText {
+  color: #fff;
+  display: flex;
+  margin-right: 600px;
+}
+
+.firstPageLink {
+  font-style: italic;
+  font-size: 36pxs;
+}
+
+.pagination {
+  display: flex;
+  text-align: center;
+  justify-content: space-evenly;
+  flex-direction: row;
+  background-color: #fff;
+  height: 20px;
+}
+
+.pagin-num {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  color: black;
+  background-color: blue;
+}
+
+.inputBase::placeholder {
+  color: black;
+}
+
+.iconContent {
+  width: 50%;
+  transition-duration: 2s;
+}
+
+.resetBtn {
+  background-color: orange;
+  color: #fff;
+}
+
+.pageOne {
+  width: 80%;
+  height: 100%;
+}
+
+.cardPage {
+  background: whitesmoke;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.card-inputs {
+  margin-top: 10px;
+  width: 20%;
+  margin: 0 auto;
+  background-color: lightgray;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-inputs input {
+  margin: 10px auto;
+  text-align: center;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 5px;
+}
+
+.card-inputs button {
+  background-color: rgb(132, 207, 142);
+  outline: none;
+  border: none;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+*/ .first-tense {
+  font-size: 36px;
+  font-family: serif;
+}
+
+p {
+  font-style: italic;
+  /* font-family: italic; */
+  margin-top: 0;
+}
+
+.second-tense {
+  font-size: 36px;
+  font-family: serif;
+}
+
+.btnMain {
+  display: flex;
+  margin-left: 40px;
+}
+
+.btnPayment {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.pagin {
+  color: whitesmoke;
+}
+
+.searchIcon {
+  padding-left: 50%;
+}
+
+
+
+/* .Nav {
+  background: #101522;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.NavbarContainer {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+
+  /* ${Container} */
+/* }
+
+.NavLogo {
+  color: white;
+  justify-self: flex-start;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.NavIcon {
+  margin-right: 0.5rem;
+}
+
+.MobileIcon {
+  display: none;
+
+  @media screen and (max-width: 960px) {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 60%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+}
+
+.NavMenu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+
+  @media screen and (max-width: 960px) {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 90vh;
+    position: absolute;
+    top: 80px;
+    /* left: ${({ click }) => (click ? 0 : '-100%')}; */
+    /* opacity: 1;
+    transition: all 0.5s ease;
+    background: black;
+  
+
+
+.NavItem {
+  height: 80px;
+  border-bottom: 2px solid transparent;
+
+  &:hover {
+    border-bottom: 2px solid #4b59f7;
+  }
+
+  @media screen and (max-width: 960px) {
+    width: 100%;
+
+    &:hover {
+      border: none;
+    }
+  }
+}
+
+
+.NavItemBtn{
+  @media screen and (max-width: 960px) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+  }
+}
+
+.NavLinks {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+
+  @media screen and (max-width: 960px) {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+    display: table;
+
+    &:hover {
+      color: #4b59f7;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.NavBtnLink { */
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  padding: 8px 16px;
+  height: 100%;
+  width: 100%;
+  border: none;
+  outline: none;
+  }}} */
